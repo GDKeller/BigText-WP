@@ -36,7 +36,7 @@ function bigtext() {
 
 	wp_enqueue_script( 'bigtext', plugins_url( 'js/bigtext.js' , __FILE__ ), array( 'jquery' ), null, true );
 	wp_enqueue_script( 'call-bigtext', plugins_url( 'js/call-bigtext.js' , __FILE__ ), array( 'jquery' ), null, true );
-	wp_enqueue_style(	'bigtext-style', plugins_url( 'bigtext-style.css' , __FILE__ ) );
+	wp_enqueue_style(	'bigtext-style', plugins_url( 'css/bigtext-style.css' , __FILE__ ) );
 
 }
 add_action( 'wp_enqueue_scripts', 'bigtext');
