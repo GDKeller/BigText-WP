@@ -9,7 +9,7 @@ Dynamically resizes text to fill the width of the container element. Resizes on 
 
 
 ### Usage
-Wrap the content in the shortcode '[bigtext]'
+Wrap the content in the shortcode '''[bigtext]'''
 Example: '[bigtext]Headline to make big[/bigtext]'
 
 ### Requirements
